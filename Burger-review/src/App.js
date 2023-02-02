@@ -1,18 +1,49 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import About from "./About";
+import Home from "./Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={"https://t3.ftcdn.net/jpg/00/69/85/64/360_F_69856461_O8p56mlDwWo0mXFswcYbGbP7Ihlbimiw.jpg"} className="App-logo" alt="logo" />
-        <p>
-         Burger Review!
-        </p>
-       
-      </header>
-    </div>
+    <Router>
+      <div>
+        <ul>
+        <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/About">About</Link>
+          </li>
+        </ul>
+
+        <hr />
+
+        {/*
+          A <Switch> looks through all its children <Route>
+          elements and renders the first one whose path
+          matches the current URL. Use a <Switch> any time
+          you have multiple routes, but you want only one
+          of them to render at a time
+        */}
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/About">
+            <About />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
+
 
 export default App;
