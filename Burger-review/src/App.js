@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import {
@@ -36,7 +35,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/About">
+          <Route path="/about">
             <About />
           </Route>
         </Switch>
@@ -44,6 +43,8 @@ function App() {
     </Router>
   );
 }
+
+
 
 
 export default App;
