@@ -22,7 +22,7 @@ function App() {
           </li>
         </ul>
 
-        <hr />
+        <hr id='hr'/>
 
         {/*
           A <Switch> looks through all its children <Route>
