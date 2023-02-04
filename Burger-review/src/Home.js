@@ -16,7 +16,7 @@ function Home() {
 
     <>
 
-<div>
+<div id="navbar">
       <NavLink
         to="/"
         exact

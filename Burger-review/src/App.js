@@ -16,7 +16,7 @@ function App() {
       <div id="test">
        
 
-        <hr id='hr'/>
+        {/* <hr id='hr'/> */}
 
         {/*
           A <Switch> looks through all its children <Route>
