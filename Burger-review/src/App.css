@@ -38,13 +38,14 @@
   position: static;
   max-height: 100%;
   min-height: 100%;
+  background-color: #282c34;
 
   /* height: 100%; */
 }
 
-#test {
-  background-color: lightgray;
-}
+/* #test {
+  background-color: ;
+} */
 #top-bar {
   background-color: red;
   height: 60px;
