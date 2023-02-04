@@ -14,17 +14,7 @@ function App() {
   return (
     <Router>
       <div id="test">
-        <ul id="top-bar">
-        <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-          <li>
-            <Link to="/Navbar">NavBar</Link>
-          </li>
-        </ul>
+       
 
         <hr id='hr'/>
 
