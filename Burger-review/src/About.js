@@ -14,7 +14,7 @@ const linkStyles = {
 function About() {
   return (
     <>
-    <div>
+    <div class="navbar">
       <NavLink
         to="/"
         exact
@@ -41,10 +41,14 @@ function About() {
       
     </div>
 
-    
-  <div>
-  <h2>This is my about component!!</h2>
-  </div>
+
+    <div id="bdiv1">
+    <img src={'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80'}
+     id="main-burger" alt="Buger"></img>
+    <footer id="footer">
+      I am a footer
+    </footer>
+    </div>
   </>
   );
 }
