@@ -31,7 +31,7 @@
   max-width: 45%;
   max-height: 45%;
   border-radius: 100%;
-  /* animation: App-logo-spin infinite 10s linear; */
+  animation: App-logo-spin infinite 10s linear;
 }
 #bdiv{
   text-align: center;

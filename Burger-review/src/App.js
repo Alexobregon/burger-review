@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
+import NavBar from './NavBar';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </li>
           <li>
             <Link to="/About">About</Link>
+          </li>
+          <li>
+            <Link to="/Navbar">NavBar</Link>
           </li>
         </ul>
 
@@ -37,6 +41,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/Navbar">
+            <NavBar />
           </Route>
         </Switch>
       </div>
