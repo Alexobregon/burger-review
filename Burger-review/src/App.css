@@ -28,8 +28,8 @@
   }
 }
 #main-burger{
-  max-width: 45%;
-  max-height: 45%;
+  max-width: 10%;
+  max-height: 10%;
   border-radius: 100%;
   animation: App-logo-spin infinite 10s linear;
 }
