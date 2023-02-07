@@ -38,13 +38,22 @@ function Rating() {
       >
         About
       </NavLink>
+      <NavLink
+        to="/rating"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          textDecoration: "underline",
+        }}
+      >
+        Rating
+      </NavLink>
       
     </div>
 
 
     <div id="bdiv1">
-    <img src={'https://c4.wallpaperflare.com/wallpaper/894/492/7/mcdonalds-burger-hd-wallpaper-preview.jpg'}
-     id="main-burger" alt="Delicious-Buger"></img>
+    
     <footer id="footer">
       I am a footer
     </footer>
