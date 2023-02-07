@@ -9,6 +9,7 @@ import {
 import About from "./About";
 import Home from "./Home";
 import NavBar from './NavBar';
+import Rating from './Rating';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/Navbar">
             <NavBar />
+          </Route>
+          <Route path="/rating">
+            <Rating />
           </Route>
         </Switch>
       </div>

@@ -40,6 +40,16 @@ function Home() {
       >
         About
       </NavLink>
+      <NavLink
+        to="/rating"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          textDecoration: "underline",
+        }}
+      >
+        Rating
+      </NavLink>
       
     </div>
 
