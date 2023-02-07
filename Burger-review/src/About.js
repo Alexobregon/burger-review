@@ -50,11 +50,11 @@ function About() {
       </NavLink>
       
     </div>
-
+        This is where the information will go as well as facts
 
     <div id="bdiv1">
-    <img src={'https://c4.wallpaperflare.com/wallpaper/894/492/7/mcdonalds-burger-hd-wallpaper-preview.jpg'}
-     id="main-burger" alt="Delicious-Buger"></img>
+    {/* <img src={'https://c4.wallpaperflare.com/wallpaper/894/492/7/mcdonalds-burger-hd-wallpaper-preview.jpg'}
+     id="main-burger" alt="Delicious-Buger"></img> */}
     <footer id="footer">
       I am a footer
     </footer>
