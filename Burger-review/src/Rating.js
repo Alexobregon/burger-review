@@ -51,7 +51,9 @@ function Rating() {
       
     </div>
 
-
+    <p>
+            This is where reviews will go
+        </p>
     <div id="bdiv1">
     
     <footer id="footer">
